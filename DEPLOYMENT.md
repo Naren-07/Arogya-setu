@@ -43,5 +43,22 @@ This guide explains how to deploy the application to **Railway (Backend)** and *
     - Set the method to **POST**.
 
 ---
+
+## 🛠️ Troubleshooting: "Railpack could not determine how to build the app"
+
+If you see this error on Railway, it's because the builder is looking at the root of the repository instead of the `backend` folder.
+
+### Option 1: The Automated Fix (Recommended)
+I have added a `railway.json` and `package.json` at the **root** of the repository. Railway should now automatically detect that it's a Node.js app and run the backend.
+
+### Option 2: Manual Fix in Railway UI
+1. Go to your **Railway Project Dashboard**.
+2. Click on the **Backend Service**.
+3. Go to the **Settings** tab.
+4. Scroll down to the **General** section.
+5. Find **Root Directory** and set it to `/backend` (or just `backend`).
+6. Railway will trigger a re-deploy and should find the code correctly.
+
+---
 > [!IMPORTANT]
 > Always use `https://` for production URLs.

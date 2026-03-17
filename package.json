@@ -1,0 +1,10 @@
+{
+  "name": "swasthya-saathi-root",
+  "private": true,
+  "description": "Root configuration for Railway deployment",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "backend:install": "cd backend && npm install",
+    "frontend:install": "cd frontend && npm install"
+  }
+}

@@ -7,6 +7,7 @@ const TWILIO_AUTH_TOKEN = process.env.TWILIO_AUTH_TOKEN || '';
 const DB_URL = process.env.DB_URL || '';
 
 const NODE_ENV = process.env.NODE_ENV || 'development';
+const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:3000';
 
 module.exports = {
   PORT,
@@ -15,4 +16,5 @@ module.exports = {
   TWILIO_AUTH_TOKEN,
   DB_URL,
   NODE_ENV,
+  FRONTEND_URL,
 };

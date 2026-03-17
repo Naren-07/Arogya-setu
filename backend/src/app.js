@@ -6,10 +6,16 @@ const alertRoutes = require('./routes/alert.routes');
 const errorMiddleware = require('./middleware/error.middleware');
 const logger = require('./utils/logger');
 
+const { PORT, FRONTEND_URL } = require('./config/env');
+
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: FRONTEND_URL,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

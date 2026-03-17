@@ -56,8 +56,30 @@ I have added a `railway.json` and `package.json` at the **root** of the reposito
 2. Click on the **Backend Service**.
 3. Go to the **Settings** tab.
 4. Scroll down to the **General** section.
-5. Find **Root Directory** and set it to `/backend` (or just `backend`).
+5. Find **Root Directory** and set it to `backend`.
 6. Railway will trigger a re-deploy and should find the code correctly.
+
+## 🛠️ Troubleshooting: Vercel "404: NOT_FOUND"
+
+If you see a Vercel 404 error on your main domain:
+
+### 1. Check the Root Directory
+This is the most common cause in a monorepo.
+1. In the **Vercel Dashboard**, go to your project.
+2. Go to **Settings** > **General**.
+3. Look for **Root Directory** and ensure it is set to `frontend`.
+4. If it's empty, set it to `frontend` and click **Save**.
+5. Go to the **Deployments** tab and click **Redeploy** on the latest build.
+
+### 2. Check Framework Preset
+1. In **Settings** > **General**, ensure the **Framework Preset** is set to **Next.js**.
+
+### 3. Check for Build Errors
+1. Go to the **Deployments** tab in Vercel.
+2. Click on the latest deployment.
+3. Check the **Building** logs. If the build failed, Vercel might show a 404 if there's no previous successful deployment.
+
+---
 
 ---
 > [!IMPORTANT]

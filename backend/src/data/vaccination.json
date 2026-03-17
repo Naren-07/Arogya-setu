@@ -1,0 +1,73 @@
+{
+  "child_vaccines": [
+    {
+      "age": "Birth",
+      "vaccines": ["BCG", "OPV-0", "Hepatitis B - Birth dose"],
+      "notes": "Given at birth or as soon as possible"
+    },
+    {
+      "age": "6 weeks",
+      "vaccines": ["OPV-1", "Pentavalent-1", "Rotavirus-1", "PCV-1", "IPV-1"],
+      "notes": "First set of primary vaccines"
+    },
+    {
+      "age": "10 weeks",
+      "vaccines": ["OPV-2", "Pentavalent-2", "Rotavirus-2"],
+      "notes": "Second set of primary vaccines"
+    },
+    {
+      "age": "14 weeks",
+      "vaccines": ["OPV-3", "Pentavalent-3", "Rotavirus-3", "PCV-2", "IPV-2"],
+      "notes": "Third set of primary vaccines"
+    },
+    {
+      "age": "9 months",
+      "vaccines": ["Measles/MR-1", "JE-1", "PCV Booster"],
+      "notes": "Important measles protection"
+    },
+    {
+      "age": "16-24 months",
+      "vaccines": ["Measles/MR-2", "JE-2", "DPT Booster-1", "OPV Booster"],
+      "notes": "Booster doses for continued protection"
+    },
+    {
+      "age": "5-6 years",
+      "vaccines": ["DPT Booster-2"],
+      "notes": "School entry booster"
+    },
+    {
+      "age": "10 years",
+      "vaccines": ["TT/Td"],
+      "notes": "Tetanus toxoid booster"
+    },
+    {
+      "age": "16 years",
+      "vaccines": ["TT/Td"],
+      "notes": "Tetanus toxoid booster"
+    }
+  ],
+  "adult_vaccines": [
+    {
+      "vaccine": "COVID-19",
+      "who": "All adults 18+",
+      "frequency": "As per government guidelines"
+    },
+    {
+      "vaccine": "Influenza (Flu)",
+      "who": "Elderly, pregnant women, chronic disease patients",
+      "frequency": "Annually"
+    },
+    {
+      "vaccine": "Tetanus Toxoid (TT)",
+      "who": "All adults, especially pregnant women",
+      "frequency": "Every 10 years; 2 doses during pregnancy"
+    },
+    {
+      "vaccine": "Hepatitis B",
+      "who": "Healthcare workers, at-risk groups",
+      "frequency": "3-dose series"
+    }
+  ],
+  "source": "Based on India's Universal Immunization Programme (UIP) guidelines",
+  "disclaimer": "This is general information only. Consult your local health center for personalized vaccine schedules."
+}

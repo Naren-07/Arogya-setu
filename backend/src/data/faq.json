@@ -1,0 +1,91 @@
+{
+  "categories": {
+    "hygiene": [
+      {
+        "tip": "Wash your hands with soap and water for at least 20 seconds before eating and after using the toilet.",
+        "priority": "high"
+      },
+      {
+        "tip": "Drink clean, filtered or boiled water. Avoid drinking water from open sources.",
+        "priority": "high"
+      },
+      {
+        "tip": "Keep food covered and eat freshly cooked meals. Avoid eating stale food.",
+        "priority": "medium"
+      },
+      {
+        "tip": "Cut your nails regularly and keep them clean to prevent infections.",
+        "priority": "medium"
+      },
+      {
+        "tip": "Use a toilet and maintain cleanliness around your home. Open defecation causes disease spread.",
+        "priority": "high"
+      }
+    ],
+    "seasonal_monsoon": [
+      {
+        "tip": "Prevent mosquito breeding by not allowing water to stagnate around your home.",
+        "priority": "high"
+      },
+      {
+        "tip": "Use mosquito nets or repellents to protect against dengue and malaria.",
+        "priority": "high"
+      },
+      {
+        "tip": "Avoid walking in stagnant or flood water to prevent leptospirosis.",
+        "priority": "medium"
+      },
+      {
+        "tip": "Eat warm, freshly cooked meals during monsoon. Avoid street food and raw vegetables.",
+        "priority": "medium"
+      }
+    ],
+    "seasonal_summer": [
+      {
+        "tip": "Drink at least 8-10 glasses of water daily. Add ORS if feeling dehydrated.",
+        "priority": "high"
+      },
+      {
+        "tip": "Avoid going out in peak sun (12 PM - 3 PM). Wear a hat or use an umbrella.",
+        "priority": "high"
+      },
+      {
+        "tip": "Eat light meals with fruits like watermelon, cucumber, and buttermilk.",
+        "priority": "medium"
+      }
+    ],
+    "seasonal_winter": [
+      {
+        "tip": "Keep yourself warm and cover your head and ears in cold weather.",
+        "priority": "medium"
+      },
+      {
+        "tip": "Eat warm foods and drink warm water. Include ginger and turmeric in your diet.",
+        "priority": "medium"
+      },
+      {
+        "tip": "Wash hands frequently to prevent cold and flu transmission.",
+        "priority": "high"
+      }
+    ],
+    "general": [
+      {
+        "tip": "Get at least 7-8 hours of sleep every night for good health.",
+        "priority": "medium"
+      },
+      {
+        "tip": "Stay physically active. Walk for at least 30 minutes daily.",
+        "priority": "medium"
+      },
+      {
+        "tip": "Do not ignore persistent symptoms like fever, cough, or weight loss. Visit a doctor.",
+        "priority": "high"
+      },
+      {
+        "tip": "Get all vaccinations on time, especially for children under 5 years.",
+        "priority": "high"
+      }
+    ]
+  },
+  "disclaimer": "These are general health tips for awareness only. Please consult a healthcare professional for personalized advice."
+}
